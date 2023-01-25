@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Order</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230125203843">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="access">
+			<!-- //======================================================================================================================================================== -->
+			<section class="section__access access">
+				<div class="access__container">
+					<div class="access__body">
+						<div class="access__top"></div>
+						<h3 class="access__title">Получи свой <span>шанс</span> уже сегодня!</h3>
+						<div class="access__puncts">
+							<div class="access__punct"><img src="img/main/mb-elipce.svg" alt="">Выбери предмет</div>
+							<div class="access__punct"><img src="img/main/mb-elipce.svg" alt="">Отправь свой запрос
+							</div>
+							<div class="access__punct"><img src="img/main/mb-elipce.svg" alt="">Ожидай ответ в течение
+								дня</div>
+						</div>
+						<div class="order__form">
+							<div class="order__inputs">
+								<input autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Имя">
+								<input autocomplete="off" type="text" name="form[]" data-error="error" placeholder="Телефон">
+							</div>
+							<textarea name="" id="" cols="30" rows="10" class="order__textarea" placeholder="Веедите Ваш вопрос"></textarea>
+						</div>
+						<button type="button" class="order__button land-btn">Записаться</button>
+					</div>
+				</div>
+			</section>
+			<!-- //======================================================================================================================================================== -->
+		</main>
+	</div>
+	<!-- //======================================================================================================================================================== -->
+	<div id="rewievs" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-rewievs">
+				<div class="popup-rewievs__text">
+					<h3 class="popup-rewievs__title title">Спасибо! <br>
+						Твой отзыв отправлен.</h3>
+					<h5 class="popup-rewievs__subtitle subtitle">При необходимости, мы свяжемся с тобой <br>
+						в скором времени!</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //============================================================ -->
+	<div id="feed" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-rewievs">
+				<div class="popup-rewievs__text">
+					<h3 class="popup-rewievs__title title">Спасибо! <br>
+						Твой вопрос отправлен.</h3>
+					<h5 class="popup-rewievs__subtitle subtitle">Твой куратор свяжется с тобой <br>
+						в скором времени!</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //============================================================ -->
+	<div id="lesson" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-lesson">
+				<div class="popup-lesson__body">
+					<div class="popup-lesson__top">
+						<div class="popup-lesson__main">
+							<div class="popup-lesson__num">Урок № 1</div>
+							<div class="popup-lesson__name">Четные и нечетные числа</div>
+						</div>
+						<button data-close type="button" class="popup-lesson__close">&times;</button>
+					</div>
+					<div class="popup-lesson__content">
+						<div class="popup-lesson__subtitle">Видеурок</div>
+						<div class="popup-lesson__video">
+							<div class="popup-lesson__record">
+								<picture><source srcset="img/main/popup-lesson.webp" type="image/webp"><img src="img/main/popup-lesson.png" alt=""></picture>
+							</div>
+							<div class="popup-lesson__play">
+								<button type="button" class="_icon-play"></button>
+							</div>
+						</div>
+						<div class="popup-lesson__line"></div>
+						<div class="popup-lesson__bottom">
+							<div class="popup-lesson__subtitle">Задание к уроку</div>
+							<div class="popup-lesson__block">
+								<img src="img/main/chill-man.svg" alt="">
+								<button type="button" class="land-btn">Перейти к заданию</button>
+							</div>
+							<div class="popup-lesson__result">
+								<div class="popup-lesson__count">Результат <span>не выполнен</span></div>
+								<div class="popup-lesson__trys">Осталость попыток: <span>3</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //============================================================ -->
+	<div id="filter" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup-filter">
+				<div class="popup-filter__body">
+					<button data-close type="button" class="popup-lesson__close">&times;</button>
+					<h2 class="popup-filter__title">Фильтры</h2>
+					<div class="popup-filter__select">
+						<select name="form[]" data-class-modif="filter">
+							<option value="1" selected>последнее посещение</option>
+							<option value="2">Пункт №2</option>
+							<option value="3">Пункт №3</option>
+							<option value="4">Пункт №4</option>
+						</select>
+					</div>
+					<div class="popup-filter__form">
+						<span>Фильтровать</span>
+						<div class="popup-filter__items">
+							<div class="popup-filter__item">
+								<div class="popup-filter__name">Только выполненные</div>
+								<div class="popup-filter__swich">
+									<button type="button"></button>
+								</div>
+							</div>
+							<div class="popup-filter__item">
+								<div class="popup-filter__name">Только невыполненные</div>
+								<div class="popup-filter__swich">
+									<button type="button"></button>
+								</div>
+							</div>
+						</div>
+						<div class="popup-filter__name">Месяц</div>
+						<div class="popup-filter__mounses">
+							<button type="button" class="popup-filter__mounce">Декабрь</button>
+							<button type="button" class="popup-filter__mounce">Январь</button>
+							<button type="button" class="popup-filter__mounce">Февраль</button>
+						</div>
+					</div>
+					<button type="button" class="popup-filter__button land-btn">Применить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //======================================================================================================================================================== -->
+	<script src="js/app.min.js?_v=20230125203843"></script>
+</body>
+
+</html>
